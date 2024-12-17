@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Seccion de formulario</title>
+</head>
+<body>
+   <form action="/manejarFormulario" method="POST">
+
+      <!--Label para lo que quiero que el usuario responda-->
+      <label for="usuario">Usuario:</label>
+      <!--Input guardar respuestas, guarda espacios de entrada. UN label por cada INPUT -->
+      <input type="text" id="usuario" name="usuario" placeholder="Tu usuario"><br>
+
+      <!--Label e input se asocian por el id de input y el for de Label -->
+      <label for="pwd">Contraseña:</label>
+      <input type="password" name="pwd" id="pwd"><br>
+
+      <label>Sexo:<//label>
+      <label for="hombre">Hombre</label>
+      <input type="radio" name="sexo" id="hombre" value="hombre">
+      <label for="mujer">Mujer</label>
+      <!--las entradas se asocian con type Radio a un label -->
+      <input type="radio" name="sexo" id="mujer" value="mujer"><br>
+
+      <label for="pais">País:</label>
+      <select name="pais" id="pais">
+      <option>Estados Unidos</option>
+      <option>Canadá</option>
+      <option selected>México</option>
+      <option>Otro</option>
+      </select> <br>
+
+      <label for="terminos">Aceptas los términos</label>
+      <input type="checkbox" name="terminos" id="terminos" value="aceptar"><br>
+      <input type="submit" value="Enviar!">
+
+    <!--Existen distintos tipos de inputs que podemos tener en el formulario si -->
+
+   </form>
+</body>
+</html>
