@@ -44,3 +44,33 @@ body{
     margin-top: 0px;
     position: absolute;
   }
+  body{
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  
+  .uno{
+    background-color: lightblue;
+    padding: 20px;
+    width: 100px;
+    float: left;
+  }
+  
+  .dos{
+    background-color: lightgreen;
+    padding: 20px;
+    width: 100px;
+    float: left;
+  }
+  
+  .tres{
+    background-color: coral;
+    width: 100px;
+  }
+  
+  .cuatro{
+    background-color: yellow;
+    padding: 20px;
+    width: 100px;
+    float: right;
+  }
