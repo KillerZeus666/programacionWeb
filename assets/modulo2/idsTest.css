@@ -1,0 +1,16 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+#rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.pequeño {
+    font-size: 18px;
+}
