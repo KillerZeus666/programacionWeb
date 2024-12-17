@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  .mrg-1{
+    margin: 20px;
+    background-color: lightblue;
+    width: 150px;
+    border: 5px solid black;
+  }
+  
+  .mrg-2{
+    margin: 80px 40px;
+    background-color: coral;
+    width: 150px;
+    border: 5px solid black;
+  }
+  
+  .mrg-3{
+    margin: 20px 100px 30px;
+    background-color: lightgreen;
+    width: 150px;
+    border: 5px solid black;
+  }
+  
+  .mrg-4{
+    margin: 20px 30px 10px 0px;
+    background-color: yellow;
+    width: 150px;
+    border: 5px solid black;
+  }
+  
+  .pdd-1{
+    padding: 20px;
+    background-color: lightblue;
+    width: 150px;
+  }
+  
+  .pdd-2{
+    padding: 80px 40px;
+    background-color: coral;
+    width: 150px;
+  }
+  
+  .pdd-3{
+    padding: 5px 30px 40px;
+    background-color: lightgreen;
+    width: 150px;
+  }
+  
+  .pdd-4{
+    padding: 20px 30px 10px 0px;
+    background-color: yellow;
+    width: 150px;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
