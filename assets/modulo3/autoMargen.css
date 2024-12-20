@@ -1,0 +1,15 @@
+.padre{
+    background-color: #D5F5E3;
+  }
+  
+  .hijo {
+    width: 30%;
+    margin: auto;
+    background-color: #F6DDCC;
+    text-align:center;
+  }
+  
+  body{
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
