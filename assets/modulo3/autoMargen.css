@@ -13,3 +13,22 @@
     font-size: 18px;
     font-family: Arial, sans-serif;
   }
+  
+  /*
+  Es por esto que necesitamos que las páginas web modernas sean responsivas, 
+  es decir, que se adapten a los diferentes cambios de tamaño de pantalla 
+  en los distintos dispositivos.Descargar fuentes desde Google Fonts 
+  @font-face {
+    font-family: NombreDeLaFuente;
+    src: url('NombreDeLaFuente.ttf');
+
+    Cambiarle color a un enlace
+    a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+    a:hover{
+        color: red;
+    }
+ }*/
