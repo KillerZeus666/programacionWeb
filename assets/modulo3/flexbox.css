@@ -66,14 +66,10 @@
     align-items: center;
   }
   
-  .flex-container.align-items-baseline {
-    webkit-align-items: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
-  }
+
   
   .flex-container.align-items-stretch {
-    webkit-align-items: stretch;
+    -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
   }
