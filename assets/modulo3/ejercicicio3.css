@@ -1,0 +1,33 @@
+    /*Parrafo con letra roja, subrayada y fuente arial*/
+    p {
+    
+        color: red;
+        text-decoration: 
+        underline
+        ¡Correcto!;
+        
+        font-family: Arial;
+        }
+
+    /*Contenedor con color de fondo amarillo, tamaño de fuente de 18px y texto centrado.*/
+    .contenedor {
+        background-color: yellow;
+        font-size: 18px;
+        text-align: center;
+        }
+    /*Una barra de navegación fijada en la esquina superior izquierda de la ventana, 
+con padding hacia todos los lados de 20px..*/
+    nav {
+        position: fixed;  
+        top: 0;          
+        left: 0;         
+        padding: 20px;   
+    }
+/*Una división con un ancho de la mitad de su elemento padre, pero que no pueda ser menos de 400px, 
+centrada utilizando márgenes.*/
+#division1 {
+    width: 50%;         
+    min-width: 400px;   
+    margin: auto;    
+ }
+ 
